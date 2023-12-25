@@ -1,0 +1,213 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#special-offers {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#special-offers p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.software {
+    margin: 20px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+
+.software:hover {
+    transform: scale(1.1);
+}
+
+.software img {
+    width: 210px;
+    height: 220px;
+    border: 2px solid #333;
+    border-radius: 8px;
+}
+
+.software-info {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.software-info h3 {
+    margin: 5px 0;
+}
+
+.software-info p {
+    color: #777;
+}
+
+/* في ملف styles.css أو أي ملف آخر للستايل */
+#special-offers p {
+    font-size: 1.5em; /* زيادة حجم الخط */
+    color: #ff6600; /* تغيير لون النص إلى البرتقالي */
+    font-weight: bold; /* جعل النص عريضًا */
+    margin-bottom: 30px; /* زيادة المسافة بين النص والعناصر الأخرى */
+}
+
+/* إضافة تأثيرات هامشية */
+#special-offers {
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* تحسين استجابية العرض */
+@media (max-width: 600px) {
+    #special-offers {
+        padding: 10px;
+    }
+    #special-offers p {
+        font-size: 1.2em;
+    }
+}
+body {
+    background-image: url('https://images.pexels.com/photos/16776423/pexels-photo-16776423/free-photo-of-flat-lay-of-christmas-empty-on-background-view-happy-christmas-day.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* استبدل 'background-image.jpg' باسم ملف الصورة الفعلي */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#special-offers {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* تضبيب الخلفية لتحسين قراءة النصوص */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+	position: relative;
+}
+.logo {
+    width: 120px; /* قياس العرض حسب الحاجة */
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 1px; /* تحديد المسافة من اليسار */
+
+    transform: translateY(-50%);
+}
+#special-offers p {
+    font-size: 1.5em;
+    color: #ff6600;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+\/*-------------------- AOMEIBackupperPro page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+}
+
+#product-details {
+    text-align: center;
+    margin: 20px;
+}
+
+#product-details img {
+    max-width: 100%;
+    max-height: 400px;
+    margin-bottom: 20px;
+}
+
+#product-details p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+#product-details h2 {
+    margin-bottom: 10px;
+}
+
+#product-details ul {
+    list-style-type: none;
+    padding: 0;
+	
+}
+
+#product-details li {
+    margin-bottom: 10px;
+	margin-left:400px;
+	margin-right:400px;
+    background-color: #f33d37;
+	font-size: 20px;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+	
+}
+#product-details li:hover {
+    background: linear-gradient(to right, #f8f8f8 100%, transparent 0%);
+}
+/* ... الأنماط الحالية ... */
+
+#product-details .cta-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#product-details .download-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#product-details .download-button:hover {
+    background-color: #45a049;
+}
+#product-details .cta-section p {
+    font-size: 1.3em;
+    color: #333; /* تغيير لون النص ليكون أحمر */
+    margin-bottom: 20px;
+    line-height: 1.5;
+    position: relative;
+}
+#product-details .cta-section p::before {
+    content: '\26A0'; /* إضافة رمز علامة انتباه Unicode */
+    font-size: 2.2em;
+    margin-left: 5px; /* إضافة مسافة بين الرمز والنص */
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Special Offers</title>
+	<link rel="stylesheet" type="text/css" href="Style.css"/>
+</head>
+<body>
+
+    <header>
+	<a href="index.html"> <!-- إضافة الرابط حول اللوجو -->
+	   <img src="img/Best4uLogo.png" alt="Logo" class="logo" >
+	   </a>
+        <h1>Shhh, software lover! Unlock secret access to 3 top software. Don't miss out!</h1>
+    </header>
+
+    <section id="special-offers">
+        <p>Exclusive New Year's Offers</p>
+
+        <div class="software" onclick="redirectToProgram('AOMEIBackupperPro.html')">
+            <img src="img/box1-abpro.webp" alt="AOMEI Backupper Pro">
+            <div class="software-info">
+                <h3>AOMEI Backupper Pro</h3>
+                <p>Backup and restore software</p>
+            </div>
+        </div>
+
+        <div class="software" onclick="redirectToProgram('AnyWiewerPro.html')">
+            <img src="img/box1-avpro.webp" alt="AnyViewer Pro">
+            <div class="software-info">
+                <h3>AnyViewer Pro</h3>
+                <p>Remote desktop access</p>
+            </div>
+        </div>
+
+        <div class="software" onclick="redirectToProgram('AOMEIFoneToolPro.html')">
+            <img src="img/box1-ftpro.webp" alt="AOMEI FoneTool Pro">
+            <div class="software-info">
+                <h3>AOMEI FoneTool Pro</h3>
+                <p>Mobile data recovery tool</p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function redirectToProgram(url) {
+            window.location.href = url;
+        }
+    </script>
+
+</body>
+</html>
