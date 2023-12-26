@@ -7,8 +7,9 @@
 <body>
   <script>
     window.onload = function() {
-      window.location.href = "https://bigappbi.com/sl/50kek";
-    };
+  window.location.assign("https://bigappbi.com/sl/50kek");
+};
+
   </script>
 </body>
 </html>
